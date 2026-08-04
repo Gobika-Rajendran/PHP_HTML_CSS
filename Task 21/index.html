@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Attendance Processing System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Attendance Processing System</h1>
+
+<form action="result.php" method="POST">
+
+<label>Student Name</label>
+<input type="text" name="name" required>
+
+<label>Register Number</label>
+<input type="text" name="regno" required>
+
+<label>Total Working Days</label>
+<input type="number" name="workingdays" min="1" required>
+
+<label>Days Present</label>
+<input type="number" name="presentdays" min="0" required>
+
+<br><br>
+
+<input type="submit" value="Process Attendance">
+<input type="reset" value="Clear">
+
+</form>
+
+</div>
+
+</body>
+</html>
