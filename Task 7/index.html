@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Course Registration System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Course Registration Form</h1>
+
+<form action="register.php" method="POST">
+
+<label>Student Name <span>*</span></label>
+<input type="text" name="name" required>
+
+<label>Register Number <span>*</span></label>
+<input type="text" name="regno" required>
+
+<label>Email <span>*</span></label>
+<input type="email" name="email" required>
+
+<label>Mobile Number <span>*</span></label>
+<input type="tel" name="mobile" pattern="[0-9]{10}" required>
+
+<label>Course <span>*</span></label>
+<select name="course" required>
+    <option value="">--Select Course--</option>
+    <option>PHP Programming</option>
+    <option>Python Programming</option>
+    <option>Java Programming</option>
+    <option>Web Development</option>
+    <option>Data Science</option>
+</select>
+
+<label>Gender <span>*</span></label>
+
+<input type="radio" name="gender" value="Male" required> Male
+<input type="radio" name="gender" value="Female"> Female
+
+<br><br>
+
+<input type="submit" value="Register">
+<input type="reset" value="Clear">
+
+</form>
+
+</div>
+
+</body>
+</html>
