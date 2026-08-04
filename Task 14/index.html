@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sales Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Sales Calculator</h1>
+
+<form action="result.php" method="POST">
+
+<label>Product Name</label>
+<input type="text" name="product" required>
+
+<label>Product Quantity</label>
+<input type="number" name="quantity" min="1" required>
+
+<label>Product Price ($)</label>
+<input type="number" name="price" min="1" required>
+
+<br><br>
+
+<input type="submit" value="Calculate Sales">
+<input type="reset" value="Clear">
+
+</form>
+
+</div>
+
+</body>
+</html>
