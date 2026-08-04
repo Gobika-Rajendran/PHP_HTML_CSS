@@ -1,0 +1,38 @@
+body{
+    background:#e8f5e9;
+    font-family:Arial,sans-serif;
+}
+
+.container{
+    width:500px;
+    margin:40px auto;
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0px 0px 10px gray;
+}
+
+h1{
+    text-align:center;
+    color:#2e7d32;
+}
+
+label{
+    display:block;
+    margin-top:15px;
+    font-weight:bold;
+}
+
+input,select{
+    width:100%;
+    padding:10px;
+    margin-top:5px;
+}
+
+input[type=submit],
+input[type=reset]{
+    width:auto;
+    padding:10px 20px;
+    margin-top:20px;
+    cursor:pointer;
+}
